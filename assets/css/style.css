@@ -7,6 +7,8 @@
 }
 
 
+/* banner-image */
+
 .banner-image {
     width: 100%;
     height: 100vh;
@@ -66,13 +68,15 @@
     left: 0;
     bottom: -7px;
     transition: 0.7s;
-
 }
 
 
 .nav-bar ul li:hover::after {
     width: 100%;
 }
+
+
+/* headings and button */
 
 
 .maintext {
@@ -88,7 +92,7 @@
     text-transform: uppercase;
     margin-top: 400px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 90px;
+    font-size: 70px;
 }
 
 
@@ -139,4 +143,31 @@ button:hover span {
 
 button:hover {
     border: none;
+}
+
+
+/* footer */
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+
+.social-links {
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.social-links > li {
+    display: inline;
+}
+
+footer i {
+    font-size: 130%;
+    margin: 1%;
+    padding: 5%;
+    color: #4682B4;
 }
